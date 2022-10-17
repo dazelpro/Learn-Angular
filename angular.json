@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "belajar"
+    }
+  },
+  "defaultProject": "belajar",
+  "cli": {
+    "analytics": false
+  }
 }
