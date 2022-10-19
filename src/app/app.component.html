@@ -1,3 +1,11 @@
-<h2>Halo</h2>
-<p>Perkenalkan nama saya {{name}}.</p>
-<button (click)="onClick()">Klik</button>
+<div class="nav">
+    <ul>
+        <li>
+            <a routerLink="/home">Home</a>
+            <a routerLink="/product">Product</a>
+            <a routerLink="/about">About</a>
+        </li>
+    </ul>
+</div>
+
+<router-outlet></router-outlet>
