@@ -5,14 +5,22 @@
 
 .nav ul {
     display: inline-block;
-    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
 }
 
-.nav li a {
-    padding: 15px;
-    cursor: pointer;
-    text-decoration: none;
+.nav ul li {
+    display: inline-block;
+}
+
+a {
+    display: block;
     color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {
